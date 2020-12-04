@@ -95,10 +95,20 @@ body {
 	padding: 0.95rem 1.5rem;
 	position: absolute;
 	font-size: 1.25rem;
-	transform: translateZ(180px) scale(0.84);
-	top: 0;
+	transform: translateZ(180px) scale(0.82);
+	top: 1px;
 	z-index: 9999;
 	text-align: right;
+}
+
+.shredded-paper > div .alert {
+	font-family: Lato, sans-serif;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 1.25rem;
+	letter-spacing: 0.5px;
+	line-height: 1.25rem;
 }
 
 .shredder-holder {
